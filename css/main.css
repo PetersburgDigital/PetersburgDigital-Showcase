@@ -51,6 +51,7 @@ html, body {
 }
 
 .slider__item {
+    border-radius: 8px;
     width: 21vw;
     margin-bottom: calc((var(--index))* 2.6);
     cursor: pointer;
