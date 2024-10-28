@@ -9,7 +9,7 @@ document.querySelectorAll('.slider').forEach((n, i) => {
         },
         direction : 'vertical',
         mousewheel : true,
-        slidesPerView : 1.75,
+        slidesPerView : 1.7,
         slidesOffsetBefore : -125,
     })
 })
