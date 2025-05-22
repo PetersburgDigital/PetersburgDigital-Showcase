@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>designerfrom_spb: Showcase</title>
+    <link rel="icon" type="image/x-icon" href="/img/git.jfif">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="libs/swiper/bindSwipers.js" defer></script>
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+    <div class="header__wrap" id="top">
+        <div class="header__socials">
+            <a href="https://vk.com/petersburg.digital" class="header__link" target="_blank">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.84 30.6361H32.0367C30.5983 30.6361 30.165 29.4711 27.5867 26.8911C25.3333 24.7194 24.3817 24.4494 23.8117 24.4494C23.0233 24.4494 22.8083 24.666 22.8083 25.751V29.1711C22.8083 30.0961 22.5083 30.6377 20.0917 30.6377C17.7472 30.4802 15.4736 29.768 13.4583 28.5596C11.443 27.3513 9.74354 25.6815 8.5 23.6877C5.54836 20.0121 3.49401 15.6991 2.5 11.0911C2.5 10.5211 2.71667 10.0044 3.80333 10.0044H7.60333C8.58 10.0044 8.93167 10.4394 9.315 11.4444C11.16 16.8744 14.3083 21.5977 15.5867 21.5977C16.0767 21.5977 16.29 21.3811 16.29 20.1594V14.5661C16.1283 12.0144 14.7733 11.7994 14.7733 10.8761C14.7905 10.6325 14.9019 10.4051 15.084 10.2424C15.266 10.0796 15.5043 9.99424 15.7483 10.0044H21.7217C22.5383 10.0044 22.8083 10.4111 22.8083 11.3877V18.9377C22.8083 19.7527 23.1583 20.0227 23.405 20.0227C23.895 20.0227 24.2717 19.7527 25.17 18.856C27.0948 16.5071 28.6679 13.8909 29.84 11.0894C29.9594 10.7527 30.1859 10.4644 30.4849 10.2687C30.7838 10.073 31.1386 9.98076 31.495 10.0061H35.2967C36.4367 10.0061 36.6783 10.5761 36.4367 11.3894C35.0536 14.4865 33.3427 17.4266 31.3333 20.1594C30.9233 20.7844 30.76 21.1094 31.3333 21.8427C31.71 22.4127 33.0433 23.526 33.9383 24.5844C35.2417 25.8844 36.3233 27.3877 37.1417 29.0344C37.4683 30.0944 36.925 30.6361 35.84 30.6361Z" />
+                </svg>
+            </a>
+            <a href="https://github.com/PetersburgDigital" class="header__link" target="_blank">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.9997 3.33301C17.811 3.33301 15.6437 3.7641 13.6216 4.60168C11.5995 5.43926 9.7622 6.66692 8.21456 8.21456C5.08896 11.3402 3.33301 15.5794 3.33301 19.9997C3.33301 27.3663 8.11634 33.6163 14.733 35.833C15.5663 35.9663 15.833 35.4497 15.833 34.9997V32.183C11.2163 33.183 10.233 29.9497 10.233 29.9497C9.46634 28.0163 8.38301 27.4997 8.38301 27.4997C6.86634 26.4663 8.49967 26.4997 8.49967 26.4997C10.1663 26.6163 11.0497 28.2163 11.0497 28.2163C12.4997 30.7497 14.9497 29.9997 15.8997 29.5997C16.0497 28.5163 16.483 27.783 16.9497 27.3663C13.2497 26.9497 9.36634 25.5163 9.36634 19.1663C9.36634 17.3163 9.99967 15.833 11.083 14.6497C10.9163 14.233 10.333 12.4997 11.2497 10.2497C11.2497 10.2497 12.6497 9.79967 15.833 11.9497C17.1497 11.583 18.583 11.3997 19.9997 11.3997C21.4163 11.3997 22.8497 11.583 24.1663 11.9497C27.3497 9.79967 28.7497 10.2497 28.7497 10.2497C29.6663 12.4997 29.083 14.233 28.9163 14.6497C29.9997 15.833 30.633 17.3163 30.633 19.1663C30.633 25.533 26.733 26.933 23.0163 27.3497C23.6163 27.8663 24.1663 28.883 24.1663 30.433V34.9997C24.1663 35.4497 24.433 35.983 25.283 35.833C31.8997 33.5997 36.6663 27.3663 36.6663 19.9997C36.6663 17.811 36.2352 15.6437 35.3977 13.6216C34.5601 11.5995 33.3324 9.7622 31.7848 8.21456C30.2371 6.66692 28.3998 5.43926 26.3777 4.60168C24.3556 3.7641 22.1884 3.33301 19.9997 3.33301Z"/>
+                </svg>
+            </a>
+            <a href="https://www.behance.net/PetersburgDigital" class="header__link" target="_blank">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 7.5C14.7811 7.50003 16.198 7.91912 17.4129 8.70666C18.6277 9.49421 19.5887 10.6166 20.1797 11.9382C20.7708 13.2599 20.9667 14.7244 20.7437 16.1549C20.5208 17.5854 19.8885 18.9209 18.9233 20C19.8885 21.0791 20.5208 22.4146 20.7437 23.8451C20.9667 25.2756 20.7708 26.7401 20.1797 28.0618C19.5887 29.3834 18.6277 30.5058 17.4129 31.2933C16.198 32.0809 14.7811 32.5 13.3333 32.5H6.66667C5.5616 32.5 4.50179 32.061 3.72039 31.2796C2.93899 30.4982 2.5 29.4384 2.5 28.3333V11.6667C2.5 10.5616 2.93899 9.50179 3.72039 8.72039C4.50179 7.93899 5.5616 7.5 6.66667 7.5H13.3333ZM29.1667 14.1667C34.0717 14.1667 37.5 18.595 37.5 23.3333C37.5 23.9548 37.2685 24.554 36.8506 25.014C36.4328 25.4741 35.8586 25.762 35.24 25.8217L35 25.8333H34.1733C34.675 25.8343 35.1648 25.9862 35.579 26.2693C35.9932 26.5523 36.3126 26.9534 36.4958 27.4205C36.679 27.8875 36.7174 28.3988 36.6061 28.888C36.4948 29.3772 36.2389 29.8215 35.8717 30.1633C34.3783 31.5517 32.2283 32.5 29.1667 32.5C24.2617 32.5 20.8333 28.0717 20.8333 23.3333C20.8333 18.595 24.2617 14.1667 29.1667 14.1667ZM13.3333 22.5H7.5V27.5H13.3333C13.9754 27.4997 14.5927 27.2524 15.0573 26.8093C15.522 26.3663 15.7984 25.7614 15.8292 25.1201C15.8601 24.4789 15.643 23.8503 15.223 23.3647C14.8031 22.879 14.2124 22.5736 13.5733 22.5117L13.3333 22.5ZM34.16 25.8333H26.5C27.1617 26.9083 28.2133 27.5 29.1667 27.5C31.105 27.5 31.9967 26.9383 32.4617 26.5033C32.9226 26.0743 33.5302 25.835 34.16 25.8333ZM29.165 19.1667C28.2117 19.1667 27.16 19.7583 26.4983 20.8333H31.8317C31.17 19.7583 30.1183 19.1667 29.165 19.1667ZM13.3333 12.5H7.5V17.5H13.3333C13.9964 17.5 14.6323 17.2366 15.1011 16.7678C15.5699 16.2989 15.8333 15.663 15.8333 15C15.8333 14.337 15.5699 13.7011 15.1011 13.2322C14.6323 12.7634 13.9964 12.5 13.3333 12.5ZM31.6667 9.16667C32.3297 9.16667 32.9656 9.43006 33.4344 9.8989C33.9033 10.3677 34.1667 11.0036 34.1667 11.6667C34.1667 12.3297 33.9033 12.9656 33.4344 13.4344C32.9656 13.9033 32.3297 14.1667 31.6667 14.1667H26.6667C26.0036 14.1667 25.3677 13.9033 24.8989 13.4344C24.4301 12.9656 24.1667 12.3297 24.1667 11.6667C24.1667 11.0036 24.4301 10.3677 24.8989 9.8989C25.3677 9.43006 26.0036 9.16667 26.6667 9.16667H31.6667Z"  />
+                </svg>
+            </a>
+            <a href="https://t.me/blue_sweater7" class="header__link" target="_blank">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.9997 3.33301C10.7997 3.33301 3.33301 10.7997 3.33301 19.9997C3.33301 29.1997 10.7997 36.6663 19.9997 36.6663C29.1997 36.6663 36.6663 29.1997 36.6663 19.9997C36.6663 10.7997 29.1997 3.33301 19.9997 3.33301ZM27.733 14.6663C27.483 17.2997 26.3997 23.6997 25.8497 26.6497C25.6163 27.8997 25.1497 28.3163 24.7163 28.3663C23.7497 28.4497 23.0163 27.733 22.083 27.1163C20.6163 26.1497 19.783 25.5497 18.3663 24.6163C16.7163 23.533 17.783 22.933 18.733 21.9663C18.983 21.7163 23.2497 17.833 23.333 17.483C23.3446 17.43 23.343 17.375 23.3285 17.3227C23.314 17.2704 23.2869 17.2225 23.2497 17.183C23.1497 17.0997 23.0163 17.133 22.8997 17.1497C22.7497 17.183 20.4163 18.733 15.8663 21.7997C15.1997 22.2497 14.5997 22.483 14.0663 22.4663C13.4663 22.4497 12.333 22.133 11.483 21.8497C10.433 21.5163 9.61634 21.333 9.68301 20.7497C9.71634 20.4497 10.133 20.1497 10.9163 19.833C15.783 17.7163 19.0163 16.3163 20.633 15.6497C25.2663 13.7163 26.2163 13.383 26.8497 13.383C26.983 13.383 27.2997 13.4163 27.4997 13.583C27.6663 13.7163 27.7163 13.8997 27.733 14.033C27.7163 14.133 27.7497 14.433 27.733 14.6663Z" />
+                </svg>
+            </a>
+        </div>
+        <a href="#" class="main__link main__link_hover">@PetersburgDigital</a>
+    </div>
+    
+    <div class="hero">
+        <H1 class="hero__title">Let's see interactive showcase of my portfolio</H1>
+    </div>
+    
+    <div class="main-wrapper">
+        <div class="swiper slider slider1">
+            <div class="swiper-wrapper swiper__wrapper">
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/199373435/LOTE-Hotels-Website-First-page-design">
+                        <div class="slider__img" style="background-image: url(img/lotte\ hotels.png);"></div>
+                        <p class="slider__text"> End of a slider</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://kwork.ru/portfolio/14255969">
+                        <div class="slider__img" style="background-image: url(img/webovio-desktop2.jpeg);"></div>
+                        <p class="slider__text"> <span>1</span>Webovio landing page</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://kwork.ru/portfolio/14255969">
+                        <div class="slider__img" style="background-image: url(img/webovio-mockup2.jpg);"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/199373435/LOTE-Hotels-Website-First-page-design">
+                        <div class="slider__img" style="background-image: url(img/lotte\ hotels.png);"></div>
+                        <p class="slider__text"> <span>2</span> Lotte Hotels concept</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/199373435/LOTE-Hotels-Website-First-page-design">
+                        <div class="slider__img" style="background-image: url(img/lotte-hotels-mockup.jpg);"></div>
+                    </a> 
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/203681793/Ralph-Lauren-website-design-practice">
+                        <div class="slider__img" style="background-image: url(img/raulph-lauren-2.png);"></div>
+                        <p class="slider__text"><span>3</span> Ralph Lauren landing page</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/203681793/Ralph-Lauren-website-design-practice">
+                        <div class="slider__img" style="background-image: url(img/ralph-lauren-mockup.jpg);"></div>
+                    </a> 
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/198956611/First-Screen-of-Samsung-Galaxy-Buds2">
+                        <div class="slider__img" style="background-image: url(img/buds.png);"></div>
+                        <p class="slider__text"><span>4</span> Galaxy buds first screen</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/198956611/First-Screen-of-Samsung-Galaxy-Buds2">
+                        <div class="slider__img" style="background-image: url(img/galaxy-buds-mockup.jpg);"></div>
+                    </a> 
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/198953679/First-Screen-of-Oculus-Rift-website">
+                        <div class="slider__img" style="background-image: url(img/vr.png);"></div>
+                        <p class="slider__text"><span>5</span> VR first screen</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/198953679/First-Screen-of-Oculus-Rift-website">
+                        <div class="slider__img" style="background-image: url(img/vr-mockup.jpg);"></div>
+                    </a> 
+                </div>
+            </div>
+        </div>
+        <!-- <div class="swiper slider slider2">
+            <div class="swiper-wrapper swiper__wrapper">
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/200197747/Movie-night-website-landing-page">
+                        <div class="slider__img" style="background-image: url(img/movie\ night.png);"></div>
+                    </a>  
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://designerfrom-spb.github.io/Creative-Agency-webovio/">
+                        <div class="slider__img" style="background-image: url(img/webovio\ desktop.jpeg);"></div>
+                    </a>  
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/198953679/First-Screen-of-Oculus-Rift-website">
+                        <div class="slider__img" style="background-image: url(img/vr.png);"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://designerfrom-spb.github.io/The-Agency/">
+                        <div class="slider__img" style="background-image: url(img/real-estate.jpeg);"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://www.behance.net/gallery/203681793/Ralph-Lauren-website-design-practice">
+                        <div class="slider__img" style="background-image: url(img/raulph\ lauren.png);"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide slider__item">
+                    <a href="https://kwork.ru/portfolio/14273508">
+                        <div class="slider__img" style="background-image: url(img/car-rent.jpeg);"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="swiper slider slider3">
+                <div class="swiper-wrapper swiper__wrapper">
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/209108809/New-fresh-design-for-brand-Kuchenland">
+                            <div class="slider__img" style="background-image: url(img/kuchenland.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/198956611/First-Screen-of-Samsung-Galaxy-Buds2">
+                            <div class="slider__img" style="background-image: url(img/buds.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14273508">
+                            <div class="slider__img" style="background-image: url(img/car-rent.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14540085">
+                            <div class="slider__img" style="background-image: url(img/easyDrive.png);"></div>
+                        </a>  
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://designerfrom-spb.github.io/Creative-Agency-webovio/">
+                            <div class="slider__img" style="background-image: url(img/webovio\ desktop.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/200197747/Movie-night-website-landing-page">
+                            <div class="slider__img" style="background-image: url(img/movie\ night.png);"></div>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+                <!-- <div class="swiper slider slider4">
+                    <div class="swiper-wrapper swiper__wrapper">
+                        <div class="swiper-slide slider__item">
+                            <a href="https://kwork.ru/portfolio/14540085">
+                                <div class="slider__img" style="background-image: url(img/easyDrive.png);"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <a href="https://kwork.ru/portfolio/14224902">
+                                <div class="slider__img" style="background-image: url(img/Landing\ page.png);"></div>
+                            </a> 
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <a href="https://www.behance.net/gallery/203681793/Ralph-Lauren-website-design-practice">
+                                <div class="slider__img" style="background-image: url(img/raulph\ lauren.png);"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <a href="https://www.behance.net/gallery/209108809/New-fresh-design-for-brand-Kuchenland">
+                                <div class="slider__img" style="background-image: url(img/kuchenland.png);"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <a href="https://www.behance.net/gallery/199373435/LOTE-Hotels-Website-First-page-design">
+                                <div class="slider__img" style="background-image: url(img/lotte\ hotels.png);"></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <a href="https://www.behance.net/gallery/198953679/First-Screen-of-Oculus-Rift-website">
+                                <div class="slider__img" style="background-image: url(img/vr.png);"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+
+    <div class="main-wrapper">
+            <div class="swiper slider2">
+                <div class="swiper-wrapper swiper__wrapper">
+                    <div class="swiper-slide slider__item">
+                        <a href="https://designerfrom-spb.github.io/The-Agency/">
+                            <div class="slider__img" style="background-image: url(img/real-estate.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://designerfrom-spb.github.io/The-Agency/">
+                            <p class="slider__text"> <span>1</span>The Agency landing page</p>
+                            <div class="slider__img" style="background-image: url(img/real-estate.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14273508">
+                            <div class="slider__img" style="background-image: url(img/car-rent.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14273508">
+                            <p class="slider__text"> <span>2</span>Carvilla landing page</p>
+                            <div class="slider__img" style="background-image: url(img/car-rent.jpeg);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14540085">
+                            <div class="slider__img" style="background-image: url(img/easyDrive.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://kwork.ru/portfolio/14540085">
+                            <p class="slider__text"> <span>3</span>EasyDrive landing page</p>
+                            <div class="slider__img" style="background-image: url(img/easyDrive.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/209108809/Redesign-for-brand-Kuchenland">
+                            <div class="slider__img" style="background-image: url(img/kuchenland.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/209108809/Redesign-for-brand-Kuchenland">
+                            <p class="slider__text"> <span>4</span>Kuchenland redesign</p>
+                            <div class="slider__img" style="background-image: url(img/kuchenland.png);"></div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/200197747/Movie-night-website-landing-page">
+                            <div class="slider__img" style="background-image: url(img/movie-night.png);"></div>
+                        </a>  
+                    </div>
+                    <div class="swiper-slide slider__item">
+                        <a href="https://www.behance.net/gallery/200197747/Movie-night-website-landing-page">
+                            <p class="slider__text"> <span>5</span>Movie night landing page</p>
+                            <div class="slider__img" style="background-image: url(img/movie-night.png);"></div>
+                        </a>  
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </div>
+    <div class="hero">
+        <H1 class="hero__title">Collection of landing pages and website designs</H1>
+        <p class="hero__text">
+            We can make HTML coding, landing page designs, design the first screens, presentations and create any graphic designs for your needs 
+        </p>
+    </div>
+
+    <div class="block">
+        <div class="block__img-wrapper">
+            <div class="block__img"></div>
+        </div>
+        <ul>
+            <li class="block__element child--active">
+                <div class="block__wrapper">
+                    <div class="block__left">
+                        <h2 class="block__title">The Agency</h2>
+                        <p class="block__text">
+                            Landing page for Real Estate Agency. Available on GitHub
+                        </p>
+                    </div>
+                    <p class="block__number">1</p>
+                </div>
+            </li>
+            <li class="block__element">
+                <div class="block__wrapper">
+                    <div class="block__left">
+                        <h2 class="block__title">Kuchenland</h2>
+                        <p class="block__text">
+                            Redesign for german brand Kuchenland. Check out on Behance
+                        </p>
+                    </div>
+                    <p class="block__number">2</p>
+                </div>
+            </li>
+            <li class="block__element">
+                <div class="block__wrapper">
+                    <div class="block__left">
+                        <h2 class="block__title">Ralph Lauren</h2>
+                        <p class="block__text">
+                            Redesign for brand Raulph Lauren. Check out on Behance
+                        </p>
+                    </div>
+                    <p class="block__number">3</p>
+                </div>
+            </li>
+            <li class="block__element">
+                <div class="block__wrapper">
+                    <div class="block__left">
+                        <h2 class="block__title">EasyDrive</h2>
+                        <p class="block__text">
+                            Landing page for renting car service. Check out on kwork
+                        </p>
+                    </div>
+                    <p class="block__number">4</p>
+                </div>
+            </li>
+            <li class="block__element">
+                <div class="block__wrapper">
+                    <div class="block__left">
+                        <h2 class="block__title">Movie night</h2>
+                        <p class="block__text">
+                            Landing page for online cinema. Check out on Behance
+                        </p>
+                    </div>
+                    <p class="block__number">5</p>
+                </div>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div class="footer">
+        <div class="footer__wrapper">
+            <a href="#" class="main__link">@PetersburgDigital</a>
+            <div class="footer__right">
+                <div class="footer__socials">
+                    <a href="https://vk.com/petersburg.digital" class="footer__link">
+                        Vk
+                        <span>
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.88001 3.19279L13.6512 3.73254C13.944 3.76567 14.2081 4.02987 14.2413 4.32265L14.781 9.09381C14.8141 9.38659 14.6037 9.59709 14.3109 9.56396C14.0181 9.53084 13.7539 9.26664 13.7208 8.97386L13.3258 5.48255L3.48999 15.3184L2.65546 14.4838L12.4913 4.64802L8.99995 4.25305C8.70717 4.21992 8.44297 3.95573 8.40985 3.66295C8.37673 3.37016 8.58723 3.15967 8.88001 3.19279Z" fill="white" />
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://github.com/PetersburgDigital" class="footer__link">
+                        Github
+                        <span>
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.88001 3.19279L13.6512 3.73254C13.944 3.76567 14.2081 4.02987 14.2413 4.32265L14.781 9.09381C14.8141 9.38659 14.6037 9.59709 14.3109 9.56396C14.0181 9.53084 13.7539 9.26664 13.7208 8.97386L13.3258 5.48255L3.48999 15.3184L2.65546 14.4838L12.4913 4.64802L8.99995 4.25305C8.70717 4.21992 8.44297 3.95573 8.40985 3.66295C8.37673 3.37016 8.58723 3.15967 8.88001 3.19279Z" fill="white" />
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://www.behance.net/PetersburgDigital" class="footer__link">
+                        Behance
+                        <span>
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.88001 3.19279L13.6512 3.73254C13.944 3.76567 14.2081 4.02987 14.2413 4.32265L14.781 9.09381C14.8141 9.38659 14.6037 9.59709 14.3109 9.56396C14.0181 9.53084 13.7539 9.26664 13.7208 8.97386L13.3258 5.48255L3.48999 15.3184L2.65546 14.4838L12.4913 4.64802L8.99995 4.25305C8.70717 4.21992 8.44297 3.95573 8.40985 3.66295C8.37673 3.37016 8.58723 3.15967 8.88001 3.19279Z" fill="white" />
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://t.me/blue_sweater7" class="footer__link">
+                        Telegram
+                        <span>
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.88001 3.19279L13.6512 3.73254C13.944 3.76567 14.2081 4.02987 14.2413 4.32265L14.781 9.09381C14.8141 9.38659 14.6037 9.59709 14.3109 9.56396C14.0181 9.53084 13.7539 9.26664 13.7208 8.97386L13.3258 5.48255L3.48999 15.3184L2.65546 14.4838L12.4913 4.64802L8.99995 4.25305C8.70717 4.21992 8.44297 3.95573 8.40985 3.66295C8.37673 3.37016 8.58723 3.15967 8.88001 3.19279Z" fill="white" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <a href="#top" class="btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <circle cx="12.8528" cy="12" r="11.5" stroke="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.15885 9.47757L12.6157 6.39201C12.8278 6.20266 13.1717 6.20266 13.3838 6.39201L16.8407 9.47757C17.0528 9.66691 17.0528 9.9739 16.8407 10.1632C16.6285 10.3526 16.2846 10.3526 16.0725 10.1632L13.5429 7.90538L13.5429 17.25L12.4566 17.25L12.4566 7.90538L9.92703 10.1632C9.7149 10.3526 9.37098 10.3526 9.15885 10.1632C8.94672 9.9739 8.94672 9.66691 9.15885 9.47757Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
